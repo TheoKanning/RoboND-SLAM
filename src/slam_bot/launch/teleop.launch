@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="teleop" pkg="slam_bot" type="teleop" />
+
+</launch>
