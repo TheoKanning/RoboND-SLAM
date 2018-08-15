@@ -10,9 +10,9 @@ The robot is a simulated model of a [Waveshare Alphabot](https://www.amazon.com/
 with an RGBD camera controlled by the libgazebo_ros_openni_kinect plugin.
 
 ## Installation ##
-Copy the ```slam_bot``` folder into the ````src``` directory of your catkin workspace.
-Install RTAB-Map with ```sudo apt-get install ros-<ros distro>-rtabmap-ros```
-Run ```catkin_make```
+1. Copy the ```slam_bot``` folder into the ```src``` directory of your catkin workspace.
+2. Install RTAB-Map with ```sudo apt-get install ros-<ros distro>-rtabmap-ros```
+3. Run ```catkin_make```
 
 ## Running ##
 Once you've built and sourced the catkin workspace, run RTAB-Map with
